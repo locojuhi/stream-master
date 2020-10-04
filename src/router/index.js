@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Deck from '@/views/Deck.vue';
 import Home from '../views/Home.vue';
+import Scene from '../views/Scene.vue';
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/deck',
     name: 'Deck',
     component: Deck,
+  },
+  {
+    path: '/scenes',
+    name: 'Scenes',
+    component: Scene,
   },
 ];
 
